@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{
+    background: rgb(2, 26, 16);
+
+}
+.app{
+    background: whitesmoke;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+h1{
+    font-weight: 25px;
+    font-size: 25px;
+    color: rgb(7, 7, 0);
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+ul{
+    list-style-type: none;
+    padding: 10px 0 10px;
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+li:hover{
+    background: rgb(160, 235, 191);
+    color: black;
+}
+.question{
+    display: none;
+}
+.question.active{
+    display: block;
+}
+button{
+    background: rgb(0, 15, 8);
+    color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 2px;
+}
+ #result {
+        display: none; /* Hide the result element by default */
+        margin: 100px auto 0; /* Add some margin to center the element */
+        width: 90%; /* Set the width to 80% of the parent element */
+        max-width: 600px;
+        padding: 30px; /* Add some padding */
+        border-radius: 10px; /* Add a border radius */
+        background: whitesmoke; /* Set the background color */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+        text-align: center; /* Center the text */
+        font-size: 24px; /* Increase the font size */
+        font-weight: bold; /* Make the text bold */
+}
+      
+#result.show {
+        display: block; /* Show the result element when the class is added */
+}
